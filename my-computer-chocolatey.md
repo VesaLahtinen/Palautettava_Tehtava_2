@@ -1,5 +1,36 @@
-# Introduction
 
+
+### First we need to install chocolatey
+
+
+Chocolatey is a popular package manager for Windows that simplifies the process of installing, updating, and managing software applications. It allows users to automate the installation of a wide range of software with a single command, making it efficient and convenient. Chocolatey provides access to a vast repository of pre-packaged software packages, which can be easily installed, updated, or removed using command-line instructions. This tool streamlines software management on Windows systems, enhancing productivity and reducing the manual effort required for software maintenance.
+
+???+ warning "Requirements"
+    * Windows 7 or newer version of Windows Operating System (Recommended Windows 10 or 11)
+    * PowerShell v2+
+    * .NET Framework 4+ 
+
+???+ info "Installation Process"
+    * Start Powershell with Administrator rights (Run as Administrator)
+    If you already have choco installed in your device, run the following command in your powershell 
+
+!!! danger "This will remove chocolatey from your computer! For re-installing only!"
+    ```powershell title="Powershell as Administrator"
+    rm -Path "C:\ProgramData\chocolatey" -Recurse -Force
+    rm -Path "C:\ProgramData\ChocolateyHttpCache" -Recurse -Force
+    ```
+**Lets understand what you did with above command:** 
+
+- `#!powershell rm`: It deletes files or directories in this case it deletes the chocolatey directory.
+- `#!powershell -erroraction 'silentlycontinue'`: This part of the command tells PowerShell to continue executing the script without displaying an error message if the removal encounters an error (e.g., if the directory doesn't exist).
+
+**Run the following command in Powershell to install CHOCOLATEY**
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+```
+
+# Introduction
 ### Here's a small introduction of the programs installed on my computer
 
 ## Programs:
