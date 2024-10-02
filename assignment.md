@@ -15,10 +15,12 @@ This assignment is graded on scale pass - fail. To pass this assignment you need
 1.	Generate a new SSH key and add it to your GitHub account.
     1.	Read and follow instructions from [GitHub Documentation](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-    2. ![sshpub](https://github.com/user-attachments/assets/5cee48e0-d903-402b-b866-ec7608b1ba21)
+    2. ## Take a screenshot of the public part of SSH key that you have generated. Key should be saved in the default location "~/.ssh/id_rsa.pub"
+       ![sshpub](https://github.com/user-attachments/assets/5cee48e0-d903-402b-b866-ec7608b1ba21)
 
     
-    3. ![sshadd](https://github.com/user-attachments/assets/a1befc6c-bff5-41f8-a414-8ef690aefa3b)
+    3. ## Add key to your GitHub account. Take a screenshot of the SSH key added to your GitHub account.
+      ![sshadd](https://github.com/user-attachments/assets/a1befc6c-bff5-41f8-a414-8ef690aefa3b)
 
 
 2. Open HAMK BYOD instructions and find Chocolatey installation instructions. 
