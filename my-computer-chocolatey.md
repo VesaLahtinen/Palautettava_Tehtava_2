@@ -36,4 +36,4 @@ choco install powershell-core git vscode putty greenshot notepadplusplus winscp 
 
 
 ## Here's a screenshot from my terminal, after running the command "hostname"
-![alt text](hostname.png)
+![hostname](https://github.com/user-attachments/assets/cd6defc3-84f1-410c-b3d0-e404072ee2ac)
