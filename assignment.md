@@ -16,7 +16,7 @@ This assignment is graded on scale pass - fail. To pass this assignment you need
     1.	Read and follow instructions from [GitHub Documentation](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
     2. ## Take a screenshot of the public part of SSH key that you have generated. Key should be saved in the default location "~/.ssh/id_rsa.pub"
-       ![sshpub](https://github.com/user-attachments/assets/5cee48e0-d903-402b-b866-ec7608b1ba21)
+      ![sshpublic](https://github.com/user-attachments/assets/12fab708-b3ab-4631-be6f-175de30451a7)
 
     
     3. ## Add key to your GitHub account. Take a screenshot of the SSH key added to your GitHub account.
